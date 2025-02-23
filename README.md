@@ -42,3 +42,12 @@ OPENAI_API_KEY=<your-openai-api-key>              # Get this from OpenAI platfor
    ```bash
    python main.py
    ```
+
+## Viewing Traces
+
+After running your code, you can view all traces and debug information at [LangSmith](https://smith.langchain.com/). The traces will be organized under your project name (specified in `LANGSMITH_PROJECT`). This includes:
+- Complete conversation history
+- Token usage and costs
+- Execution time
+- Input/output for each step
+- Any errors or issues that occurred
